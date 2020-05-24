@@ -1,0 +1,355 @@
+# 从自己服务器请求得到临时的TmpSecretID、TmpSecretKey、SessionToken
+query getUpload($Model: String, $Token: String, $IndiSocialId: String) { 
+  GraphServerInquire(
+    Model: $Model
+    Token: $Token
+    IndiSocialId: $IndiSocialId
+  ) {
+    SessionToken
+    TmpSecretID
+    TmpSecretKey
+    ExpiredTime
+  }
+}
+
+# 增加员工信息(员工管理)
+mutation create_User_Info(
+  $IndiSocialId: String
+  $IndiTruename: String
+  $IndiName: String
+  $IndiEmail: String
+  $IndiAvatarImg22: String
+  $IndiSocialDesc: String
+  $IndiPublicCoding: String
+  $IndiArray: String
+  $IndiLoginMethod: String
+  $IndiQq: String
+  $IndiBirthdayImg1: String
+  $IndiAvatarImg88: String
+  $IndiBirthdayImg2: String
+  $IndiDocumentPhoto: String
+  $IndiOwnerId: String
+  $IndiSort: String
+  $IndiBirthday: String
+  $IndiMobile: String
+  $IndiOutside: String
+  $IndiProductVerifyremark: String
+  $IndiSpellInitial: String
+  $IndiPasswd: String
+  $IndiApplytime: String
+  $IndiLoginMethodId: String
+  $IndiApplycontent: String
+  $IndiApprovalId: String
+  $IndiSex: String
+  $IndiSignOut: String
+  $IndiIsDeleted: String
+  $IndiState: String
+  $IndiSharSellerName: String
+  $IndiSharTelPhone: String
+  $IndiSharProvinceId: String
+  $IndiSharAreaInfo: String
+  $indiGroupPublicCoding: String
+  $Model: String
+  $Token: String
+) {
+  IndiSocialMemberWrite(
+    IndiSocialId: $IndiSocialId
+    IndiTruename: $IndiTruename
+    IndiName: $IndiName
+    IndiEmail: $IndiEmail
+    IndiAvatarImg22: $IndiAvatarImg22
+    IndiSocialDesc: $IndiSocialDesc
+    IndiPublicCoding: $IndiPublicCoding
+    IndiArray: $IndiArray
+    IndiLoginMethod: $IndiLoginMethod
+    IndiQq: $IndiQq
+    IndiBirthdayImg1: $IndiBirthdayImg1
+    IndiAvatarImg88: $IndiAvatarImg88
+    IndiBirthdayImg2: $IndiBirthdayImg2
+    IndiDocumentPhoto: $IndiDocumentPhoto
+    IndiOwnerId: $IndiOwnerId
+    IndiSort: $IndiSort
+    IndiBirthday: $IndiBirthday
+    IndiMobile: $IndiMobile
+    IndiOutside: $IndiOutside
+    IndiProductVerifyremark: $IndiProductVerifyremark
+    IndiSpellInitial: $IndiSpellInitial
+    IndiPasswd: $IndiPasswd
+    IndiApplytime: $IndiApplytime
+    IndiLoginMethodId: $IndiLoginMethodId
+    IndiApplycontent: $IndiApplycontent
+    IndiApprovalId: $IndiApprovalId
+    IndiSex: $IndiSex
+    IndiSignOut: $IndiSignOut
+    IndiIsDeleted: $IndiIsDeleted
+    IndiState: $IndiState
+    IndiSharSellerName: $IndiSharSellerName
+    IndiSharTelPhone: $IndiSharTelPhone
+    IndiSharProvinceId: $IndiSharProvinceId
+    IndiSharAreaInfo: $IndiSharAreaInfo
+    indiGroupPublicCoding: $indiGroupPublicCoding
+    Model: $Model
+    Token: $Token
+  )
+}
+# 用户基本信息回选
+ query user_info(
+   $IndiSocialId: String
+   $IndiOwnerId: String
+   $IndiTruename: String
+   $IndiName: String
+   $IndiSpellInitial: String
+   $IndiSort: String
+   $IndiSex: String
+   $IndiBirthday: String
+   $IndiPublicCoding: String
+   $IndiLoginMethod: String
+   $IndiLoginMethodId: String
+   $IndiMobile: String
+   $IndiEmail: String
+   $IndiQq: String
+   $IndiApplytime: String
+   $IndiSignOut: String
+   $IndiState: String
+   $IndiOutside: String
+   $IndiApprovalId: String
+   $Limit: String
+   $Offset: String
+   $IndiSharSellerName: String
+   $IndiSharTelPhone: String
+   $IndiSharProvinceId: String
+   $IndiSharAreaInfo: String
+   $indiGroupPublicCoding: String
+   $Model: String
+   $Token: String
+ ) {
+   IndiSocialMemberInquire(
+     IndiSocialId: $IndiSocialId
+     IndiOwnerId: $IndiOwnerId
+     IndiTruename: $IndiTruename
+     IndiName: $IndiName
+     IndiSpellInitial: $IndiSpellInitial
+     IndiSort: $IndiSort
+     IndiSex: $IndiSex
+     IndiBirthday: $IndiBirthday
+     IndiPublicCoding: $IndiPublicCoding
+     IndiLoginMethod: $IndiLoginMethod
+     IndiLoginMethodId: $IndiLoginMethodId
+     IndiMobile: $IndiMobile
+     IndiEmail: $IndiEmail
+     IndiQq: $IndiQq
+     IndiApplytime: $IndiApplytime
+     IndiSignOut: $IndiSignOut
+     IndiState: $IndiState
+     IndiOutside: $IndiOutside
+     IndiApprovalId: $IndiApprovalId
+     Limit: $Limit
+     Offset: $Offset
+     IndiSharSellerName: $IndiSharSellerName
+     IndiSharTelPhone: $IndiSharTelPhone
+     IndiSharProvinceId: $IndiSharProvinceId
+     IndiSharAreaInfo: $IndiSharAreaInfo
+     indiGroupPublicCoding: $indiGroupPublicCoding
+     Model: $Model
+     Token: $Token
+   ) {
+     Columns
+     IndiSocialId
+     Details {
+       IndiApplycontent
+       IndiApplytime
+       IndiApprovalId
+       IndiArray
+       IndiAvatarImg22
+       IndiAvatarImg88
+       IndiBirthday
+       IndiBirthdayImg1
+       IndiBirthdayImg2
+       IndiDocumentPhoto
+       IndiEmail
+       IndiIsDeleted
+       IndiLoginMethod
+       IndiLoginMethodId
+       IndiMobile
+       IndiName
+       IndiOutside
+       IndiOwnerId
+       IndiProductVerifyremark
+       IndiPublicCoding
+       IndiQq
+       IndiSex
+       IndiSignOut
+       IndiSocialDesc
+       IndiSort
+       IndiSpellInitial
+       IndiState
+       IndiTruename
+       IndiSharSellerName
+       IndiSharTelPhone
+       IndiSharProvinceId
+       IndiSharAreaInfo
+       indiGroupPublicCoding
+       IndiAttributesName
+     }
+   }
+ }
+
+# 用户状态查询(员工管理)
+query user_status(
+  $IndiSocialId: String
+  $IndiAttributesClassId: String
+  $IndiAttributesId: String
+  $IndiAttributesName: String
+  $Model: String
+  $Token: String
+) {
+  IndiAttributesInquire(
+    IndiSocialId: $IndiSocialId
+    IndiAttributesClassId: $IndiAttributesClassId
+    IndiAttributesId: $IndiAttributesId
+    IndiAttributesName: $IndiAttributesName
+    Model: $Model
+    Token: $Token
+  ) {
+    IndiAttributesId
+    IndiAttributesName
+    IndiAttributeArray
+  }
+}
+# 水表性质查询(员工管理)
+ query meter_status(
+   $IndiSocialId: String
+   $IndiAttributesClassId: String
+   $IndiAttributesId: String
+   $IndiAttributesName: String
+   $Model: String
+   $Token: String
+ ) {
+   IndiAttributesInquire(
+     IndiSocialId: $IndiSocialId
+     IndiAttributesClassId: $IndiAttributesClassId
+     IndiAttributesId: $IndiAttributesId
+     IndiAttributesName: $IndiAttributesName
+     Model: $Model
+     Token: $Token
+   ) {
+     IndiAttributesId
+     IndiAttributesName
+     IndiAttributeArray
+   }
+ }
+
+# 用水查询语句(员工管理)
+ query water_nature(
+   $IndiSocialId: String
+   $IndiOwnerId: String
+   $GoodId: String
+   $GoodArray: String
+   $LadderrateA: String
+   $DosageA: String
+   $LadderrateB: String
+   $DosageB: String
+   $LadderrateC: String
+   $DosageC: String
+   $LadderrateD: String
+   $DosageD: String
+   $RuleTime: String
+   $Ifeffective: String
+   $Remark: String
+   $GoodName: String
+   $GoodNameLogogram: String
+   $GoodUnitId: String
+   $Model: String
+   $Token: String
+ ) {
+   WatLadderrateInquire(
+     IndiSocialId: $IndiSocialId
+     IndiOwnerId: $IndiOwnerId
+     GoodId: $GoodId
+     GoodArray: $GoodArray
+     LadderrateA: $LadderrateA
+     DosageA: $DosageA
+     LadderrateB: $LadderrateB
+     DosageB: $DosageB
+     LadderrateC: $LadderrateC
+     DosageC: $DosageC
+     LadderrateD: $LadderrateD
+     DosageD: $DosageD
+     RuleTime: $RuleTime
+     Ifeffective: $Ifeffective
+     Remark: $Remark
+     GoodName: $GoodName
+     GoodNameLogogram: $GoodNameLogogram
+     GoodUnitId: $GoodUnitId
+     Model: $Model
+     Token: $Token
+   ) {
+     IndiSocialId
+     IndiOwnerId
+     GoodId
+     GoodArray
+     LadderrateA
+     DosageA
+     LadderrateB
+     DosageB
+     LadderrateC
+     DosageC
+     LadderrateD
+     DosageD
+     RuleTime
+     Ifeffective
+     Remark
+     GoodName
+     GoodNames
+     GoodUnitId
+   }
+ }
+
+ # 增加职务、职称、工作内容、权限(员工管理)
+mutation add_User_Power_Info(
+  $IndiSocialId: String
+  $IndiOwnerId: String
+  $IndiAttributesClassId: [String]
+  $IndiAttributesId: [String]
+  $Model: String
+  $Token: String
+) {
+  IndiAttributesFunctionFirstWrite(
+    IndiSocialId: $IndiSocialId
+    IndiOwnerId: $IndiOwnerId
+    IndiAttributesClassId: $IndiAttributesClassId
+    IndiAttributesId: $IndiAttributesId
+    Model: $Model
+    Token: $Token
+  )
+}
+ # 职务、职称、工作内容、权限回选(员工管理)
+query get_User_power_Info(
+  $IndiSocialId: String
+  $IndiOwnerId: String
+  $IndiAttributesClassId: String
+  $IndiAttributesId: String
+  $IndiAttributeArray: String
+  $IndiAttributeIf: String
+  $Model: String
+  $Token: String
+) {
+  IndiAttributesFunctionInquire(
+    IndiSocialId: $IndiSocialId
+    IndiOwnerId: $IndiOwnerId
+    IndiAttributesClassId: $IndiAttributesClassId
+    IndiAttributesId: $IndiAttributesId
+    IndiAttributeArray: $IndiAttributeArray
+    IndiAttributeIf: $IndiAttributeIf
+    Model: $Model
+    Token: $Token
+  ) {
+    IndiAttributeArray
+    IndiAttributeIf
+    IndiAttributesClassId
+    IndiAttributesId
+    IndiOwnerId
+    IndiSocialId
+    IndiAttributesName
+  }
+}

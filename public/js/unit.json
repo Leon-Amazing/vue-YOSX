@@ -1,0 +1,334 @@
+[
+    {
+        "Good_unit_id": "101",
+        "Good_unit_name": "米"
+    },
+    {
+        "Good_unit_id": "102",
+        "Good_unit_name": "公里"
+    },
+    {
+        "Good_unit_id": "201",
+        "Good_unit_name": "平方米"
+    },
+    {
+        "Good_unit_id": "202",
+        "Good_unit_name": "平方英尺"
+    },
+    {
+        "Good_unit_id": "301",
+        "Good_unit_name": "立方米"
+    },
+    {
+        "Good_unit_id": "302",
+        "Good_unit_name": "毫升"
+    },
+    {
+        "Good_unit_id": "303",
+        "Good_unit_name": "升"
+    },
+    {
+        "Good_unit_id": "401",
+        "Good_unit_name": "公斤"
+    },
+    {
+        "Good_unit_id": "402",
+        "Good_unit_name": "吨"
+    },
+    {
+        "Good_unit_id": "403",
+        "Good_unit_name": "克"
+    },
+    {
+        "Good_unit_id": "404",
+        "Good_unit_name": "克拉"
+    },
+    {
+        "Good_unit_id": "501",
+        "Good_unit_name": "乏"
+    },
+    {
+        "Good_unit_id": "502",
+        "Good_unit_name": "伏安"
+    },
+    {
+        "Good_unit_id": "503",
+        "Good_unit_name": "伏安时"
+    },
+    {
+        "Good_unit_id": "504",
+        "Good_unit_name": "吉焦"
+    },
+    {
+        "Good_unit_id": "505",
+        "Good_unit_name": "焦耳"
+    },
+    {
+        "Good_unit_id": "506",
+        "Good_unit_name": "千焦"
+    },
+    {
+        "Good_unit_id": "507",
+        "Good_unit_name": "千瓦小时"
+    },
+    {
+        "Good_unit_id": "508",
+        "Good_unit_name": "瓦"
+    },
+    {
+        "Good_unit_id": "701",
+        "Good_unit_name": "元"
+    },
+    {
+        "Good_unit_id": "801",
+        "Good_unit_name": "个"
+    },
+    {
+        "Good_unit_id": "802",
+        "Good_unit_name": "把"
+    },
+    {
+        "Good_unit_id": "803",
+        "Good_unit_name": "板"
+    },
+    {
+        "Good_unit_id": "804",
+        "Good_unit_name": "版"
+    },
+    {
+        "Good_unit_id": "805",
+        "Good_unit_name": "包"
+    },
+    {
+        "Good_unit_id": "806",
+        "Good_unit_name": "本"
+    },
+    {
+        "Good_unit_id": "807",
+        "Good_unit_name": "部"
+    },
+    {
+        "Good_unit_id": "808",
+        "Good_unit_name": "册"
+    },
+    {
+        "Good_unit_id": "809",
+        "Good_unit_name": "串"
+    },
+    {
+        "Good_unit_id": "810",
+        "Good_unit_name": "床"
+    },
+    {
+        "Good_unit_id": "811",
+        "Good_unit_name": "打"
+    },
+    {
+        "Good_unit_id": "812",
+        "Good_unit_name": "袋"
+    },
+    {
+        "Good_unit_id": "813",
+        "Good_unit_name": "顶"
+    },
+    {
+        "Good_unit_id": "814",
+        "Good_unit_name": "端"
+    },
+    {
+        "Good_unit_id": "815",
+        "Good_unit_name": "对"
+    },
+    {
+        "Good_unit_id": "816",
+        "Good_unit_name": "发"
+    },
+    {
+        "Good_unit_id": "817",
+        "Good_unit_name": "份"
+    },
+    {
+        "Good_unit_id": "818",
+        "Good_unit_name": "幅"
+    },
+    {
+        "Good_unit_id": "819",
+        "Good_unit_name": "付"
+    },
+    {
+        "Good_unit_id": "820",
+        "Good_unit_name": "副"
+    },
+    {
+        "Good_unit_id": "821",
+        "Good_unit_name": "杆"
+    },
+    {
+        "Good_unit_id": "822",
+        "Good_unit_name": "根"
+    },
+    {
+        "Good_unit_id": "823",
+        "Good_unit_name": "罐"
+    },
+    {
+        "Good_unit_id": "824",
+        "Good_unit_name": "盒"
+    },
+    {
+        "Good_unit_id": "825",
+        "Good_unit_name": "机"
+    },
+    {
+        "Good_unit_id": "826",
+        "Good_unit_name": "架"
+    },
+    {
+        "Good_unit_id": "827",
+        "Good_unit_name": "件"
+    },
+    {
+        "Good_unit_id": "828",
+        "Good_unit_name": "卷"
+    },
+    {
+        "Good_unit_id": "829",
+        "Good_unit_name": "颗"
+    },
+    {
+        "Good_unit_id": "830",
+        "Good_unit_name": "课"
+    },
+    {
+        "Good_unit_id": "831",
+        "Good_unit_name": "口"
+    },
+    {
+        "Good_unit_id": "832",
+        "Good_unit_name": "块"
+    },
+    {
+        "Good_unit_id": "833",
+        "Good_unit_name": "粒"
+    },
+    {
+        "Good_unit_id": "834",
+        "Good_unit_name": "辆"
+    },
+    {
+        "Good_unit_id": "835",
+        "Good_unit_name": "罗"
+    },
+    {
+        "Good_unit_id": "836",
+        "Good_unit_name": "枚"
+    },
+    {
+        "Good_unit_id": "837",
+        "Good_unit_name": "门"
+    },
+    {
+        "Good_unit_id": "838",
+        "Good_unit_name": "面"
+    },
+    {
+        "Good_unit_id": "839",
+        "Good_unit_name": "盘"
+    },
+    {
+        "Good_unit_id": "840",
+        "Good_unit_name": "盆"
+    },
+    {
+        "Good_unit_id": "841",
+        "Good_unit_name": "片"
+    },
+    {
+        "Good_unit_id": "842",
+        "Good_unit_name": "瓶"
+    },
+    {
+        "Good_unit_id": "843",
+        "Good_unit_name": "扇"
+    },
+    {
+        "Good_unit_id": "844",
+        "Good_unit_name": "双"
+    },
+    {
+        "Good_unit_id": "845",
+        "Good_unit_name": "艘"
+    },
+    {
+        "Good_unit_id": "846",
+        "Good_unit_name": "台"
+    },
+    {
+        "Good_unit_id": "847",
+        "Good_unit_name": "套"
+    },
+    {
+        "Good_unit_id": "848",
+        "Good_unit_name": "条"
+    },
+    {
+        "Good_unit_id": "849",
+        "Good_unit_name": "桶"
+    },
+    {
+        "Good_unit_id": "850",
+        "Good_unit_name": "筒"
+    },
+    {
+        "Good_unit_id": "851",
+        "Good_unit_name": "头"
+    },
+    {
+        "Good_unit_id": "852",
+        "Good_unit_name": "团"
+    },
+    {
+        "Good_unit_id": "853",
+        "Good_unit_name": "线"
+    },
+    {
+        "Good_unit_id": "854",
+        "Good_unit_name": "箱"
+    },
+    {
+        "Good_unit_id": "855",
+        "Good_unit_name": "印"
+    },
+    {
+        "Good_unit_id": "856",
+        "Good_unit_name": "扎"
+    },
+    {
+        "Good_unit_id": "857",
+        "Good_unit_name": "张"
+    },
+    {
+        "Good_unit_id": "858",
+        "Good_unit_name": "支"
+    },
+    {
+        "Good_unit_id": "859",
+        "Good_unit_name": "只"
+    },
+    {
+        "Good_unit_id": "860",
+        "Good_unit_name": "株"
+    },
+    {
+        "Good_unit_id": "861",
+        "Good_unit_name": "组"
+    },
+    {
+        "Good_unit_id": "862",
+        "Good_unit_name": "尊"
+    },
+    {
+        "Good_unit_id": "863",
+        "Good_unit_name": "座"
+    }
+]
