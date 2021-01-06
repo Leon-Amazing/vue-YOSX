@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "apollo-boost": "^0.4.8",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.4",
     "cos-js-sdk-v5": "^0.5.26",
     "element-ui": "^2.13.2",
